@@ -1,0 +1,165 @@
+/* header */
+.header{
+    text-align: center;
+    color: white;
+    background-image: url('gambar/Landscape.jpeg');
+}
+
+/* navbar */
+.navbar{
+    text-align: center; 
+    background-color: black;  
+}
+nav a{
+    margin-left: 5%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color: blue;
+}
+
+
+/* sidebar */
+.leftbar{
+    text-align: center;
+}
+.leftbar ul{
+    list-style: none;
+}
+.leftbar li{
+    background-color: grey;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.leftbar a{
+    text-decoration: none;
+    color: white;
+}
+.leftbar li:hover{
+    background-color: black;
+}
+
+.rightbar{
+    text-align: center;
+}
+.rightbar ul{
+    list-style: none;
+}
+.rightbar li{
+    background-color: grey;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.rightbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightbar li:hover{
+    background-color: black;
+}
+
+
+/* gallery */
+.gallery {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.photo img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid grey;
+}
+
+/* profile */
+.profil{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.profil  h1{
+    text-align: center;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.profil .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.profile{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.profile img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+}
+
+.profil, ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* study */
+.study{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: whitesmoke;
+}
+.judul{
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
